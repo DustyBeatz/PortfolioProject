@@ -1,0 +1,393 @@
+@charset "utf-8";
+/* CSS Document */
+/* this be a comment homie*/
+
+
+@font-face
+{
+	font-family: 'Oswald';
+	src: url('../fonts/Oswald/oswald-regular.ttf') format("truetype");
+}
+
+.hidden
+{ 
+display:none;
+}
+
+h3
+{
+	font-family: 'Oswald';
+	color: #FFFFFF;
+	font-size: 20px;
+	padding-bottom: 10px;
+	padding-top: 10px;
+
+}
+
+
+
+label
+{
+	font-size: 20px;
+	color: #FFFFFF;
+	font-family: sans-serif;
+}
+
+
+
+a
+{
+	font-size: 12px;
+	text-decoration: none;
+	color: #FFFFFF;
+}
+
+p 
+{
+	font-family: 'Oswald';
+	color: #FFFFFF;
+}
+
+body
+{
+	font-family: Helvetica, Arial, sans-serif;
+	size: 14px;
+	color: #000;
+	background-color: #ccc;
+	background: url(../images/wov2.png); 
+	background-size: contain;
+	background-position: center;
+} 
+
+
+
+
+#backgroundImg
+{
+	background: url(../images/poly_phone.jpg);
+	background-repeat: no-repeat;
+
+}
+
+#logo
+{
+	position:absolute;
+	left:4px;
+	top: 4px;
+}
+
+#logo img 
+{
+	width: 55px;
+	height: 55px;
+}
+
+#mainHeader
+{
+	height: 70px;
+	position:relative;
+
+}
+
+#mainNav
+{
+	margin-top:20px;
+	margin-right:20px;
+	float:right;
+	
+}
+
+#mainNav ul 
+{
+	list-style-type: none;
+	float: left;
+	padding: 0;
+}
+
+#mainNav ul li 
+{
+	display: inline;
+	margin-left: 20px;
+}
+
+#intro
+{
+}
+
+#intro img 
+{
+	width: 160px;
+	height: 165px;
+	margin-top: 15px;
+	margin-left: 25%;
+}
+
+#intro p
+{
+	margin-top: 30px;
+	font-size: 50px;
+	color: #FFFFFF;
+	margin-left: 23%;
+}
+
+.titleBar
+{
+	background-color: #526855;
+	-webkit-box-shadow: 0px 4px 5px 0px rgba(0,0,0,0.16);
+    -moz-box-shadow: 0px 4px 5px 0px rgba(0,0,0,0.16);
+    box-shadow: 0px 4px 5px 0px rgba(0,0,0,0.16);
+
+}
+
+.titleBar p
+{
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font-size: 28px;
+	color: #FFFFFF;
+}
+
+#aboutMe
+{
+	background: #718E3A;
+}
+
+
+
+.circle
+{
+    width:150px;
+	height:150px;
+	margin-top: 20px;
+	border: solid 2px #95989A;
+	background-color: #425344;
+	-webkit-box-shadow: 0px 4px 5px 0px rgba(0,0,0,0.16);
+    -moz-box-shadow: 0px 4px 5px 0px rgba(0,0,0,0.16);
+    box-shadow: 0px 4px 5px 0px rgba(0,0,0,0.16);
+	border-radius:100px;
+}
+
+.circle /* this is the circle positions */
+{
+	margin-left: 30%;
+}
+
+.icon
+{
+	height: 100px;
+	width: 100px;
+	
+}
+.title
+{
+	font-size: 25px;
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 30px;
+}
+
+#aboutMe p 
+{
+	padding-left: 22px;
+	padding-right: 22px;
+	padding-bottom: 15px;
+}
+
+
+
+#whoIam img
+{
+	padding: 25px;
+}
+
+#whatIdo img
+{
+	padding: 25px;
+}
+
+#howIdo img 
+{
+	padding: 25px;
+	padding-top: 30px;
+}
+
+#gallery
+{
+		background: #425344;
+}
+
+#galleryCont
+{
+	max-width: 1280px;
+	margin: auto;
+	clear: both;
+}
+
+
+#video
+{
+	margin-top: 30px;
+}
+
+.row
+{
+	margin-left:20px;
+}
+.row,
+.row > .column 
+{
+	padding: 8px;
+}
+
+.column
+{
+	float: left;
+	width: 25%;
+}
+
+.row:after
+{
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.content 
+{
+	padding: 10px;
+}
+
+.content img 
+{
+		width: 300px;
+	height: 200px;
+}
+
+@media (max-width: 900px) /* Gallery responsive content adjustments here */
+{
+	.column {
+		width: 100%
+	}
+}
+
+@media (max-width: 600px)
+{
+	.column 
+	{
+		width: 100%;
+	}
+}
+
+#contact
+{
+	background: #718E3A;
+}
+
+.formBox
+{
+	clear: left;
+	padding: 10px;
+}
+
+.contactbox
+{
+	width: 349px;
+	padding: 10px;
+}
+
+.inputBox
+{
+	margin-left: 10px;
+	height: 40px;
+    width: 349px;
+	border-radius: 6px;
+	border: 0;
+	padding: 10px;
+	padding: 10px 0 0 16px;
+}
+
+#message
+{
+	margin-left: 10px;
+	border-radius: 6px;
+	width: 359px;
+	height: 200px;
+}
+
+#button
+{
+	background-color: #526855;
+	margin: 10px;
+	padding: 5px;
+	background: #526855;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 10px 10px 10px;
+    text-decoration: none;
+	border: none;
+
+}
+
+#button:hover
+{
+	background: #4e6652;
+    background-image: -webkit-linear-gradient(top, #4e6652, #648568);
+    background-image: -moz-linear-gradient(top, #4e6652, #648568);
+    background-image: -ms-linear-gradient(top, #4e6652, #648568);
+    background-image: -o-linear-gradient(top, #4e6652, #648568);
+    background-image: linear-gradient(to bottom, #4e6652, #648568);
+    text-decoration: none;
+}
+
+#footer
+{
+	background: #425344;
+	height: 75px;
+	width: auto;
+}
+#mainFooter
+{
+	margin-left: 25%;
+
+}
+
+#mainFooter ul
+{
+	margin-top: 30px;
+	list-style: none;
+	float: left;
+	padding: 0;
+
+
+
+}
+
+#mainFooter ul li
+{
+	display: inline; 
+	padding-left: 15px;
+}
+
+#mainFooter ul li a
+{
+	text-align: center;
+
+}
+
+
+/* ------------------Tablet Size------------------*/
+
+@media (min-width: 450px )
+{
+	#backgroundImg
+	{
+		background: url(../images/poly_tablet.jpg);
+		background-repeat: no-repeat;
+		height: 500px;
+		background-size: contain;
+		background-position: center;
+
+	}
+}
